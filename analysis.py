@@ -5,3 +5,6 @@ def load_data(path):
 
 def describe_data(df):
     return df.describe()
+
+def count_missing(df):
+    return df.isna().sum()
